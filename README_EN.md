@@ -52,7 +52,7 @@ Translation: "'Meeting at the summit, a panoramic view of all mountains small.' 
 ## Data
 We provide development and test datasets for each topic in the [data/dev](data/dev) and [data/test](data/test) directories.
 
-## Guidelines
+## Prompt
 We provide preprocessing code in the `src/utils` directory.
 
 Here is an example of data with direct answer prompts added:
@@ -88,7 +88,7 @@ Here is an example of data with direct answer prompts added:
      答案是：
      (The answer is: )
  ```
-#### Evaluation
+## Evaluation
 The code for evaluation of each model we used is in [src](src), and the code to run them is listed in [script](script) directory.
 
 ## Citation
