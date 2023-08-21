@@ -18,11 +18,11 @@
 ## Introduction
 
 The Ancient Chinese Language Understanding Evaluation (**ACLUE**) is an evaluation benchmark focused on ancient Chinese language comprehension. It aims to assess the performance of large-scale language models on understanding ancient Chinese. The benchmark comprises 15 tasks spanning various domains, including lexical, syntactic, semantic, inference, and knowledge. We encourage researchers to use ACLUE to test and enhance their models' abilities in ancient Chinese language understanding.
-ACLUE's tasks are derived from a combination of meticulously curated publicly available resources and automatically generated classical Chinese language corpora. The questions cover a wide temporal range from the Xia dynasty (2070 BCE) to the Ming dynasty (1368 CE). ACLUE employs a multiple-choice question format for all tasks.
+ACLUE's tasks are derived from a combination of manually curated questions from publicly available resources, and automatically generated questions from classical Chinese language corpora. The range of questions span from the Xia dynasty (2070 BCE) to the Ming dynasty (1368 CE). ACLUE adopts a multiple-choice question format for all tasks.
 
 ## Leaderboard 🏆
 
-The table below presents model performance in the zero-shot iteration. If you wish to contribute your model results, please contact us or submit a pull request.
+The table below presents model performance in the zero-shot settings. If you wish to contribute your model results, please contact us or submit a pull request.
 
 #### Zero-shot
 | model     | Lexical | Syntactic | Semantic | Inference | Knowledge | Overall |
@@ -41,7 +41,7 @@ The tasks for each category are as follows:
 Lexical (T1: polysemy resolution, T2: homographic character resolution, T3: named entity recognition), Syntactic (T4: sentence segmentation), Semantics (T5: couplet prediction, T6: poetry context prediction), Inference (T7: poetry quality assessment, T8: reading comprehension, T9: poetry appreciate, T10: poetry sentiment analysis), Knowledge (T11: basic ancient chinese, T12: ancient chinese culture, T13: ancient medical, T14: ancient literature, T15: ancient phonetics).
 
 ## Data Format
-Each question in the dataset is a multiple-choice question with 4 options, where only one option is the correct answer. The data is available in comma-separated .csv files. The data can be found in the following locations:
+Each question in the dataset is a multiple-choice question with 4 options, where only one option is the correct answer. The data is available in comma-separated .csv files. The data can be found in the following locations [data](data).
 
 Here is an example of the data format:
 ```
