@@ -10,7 +10,7 @@
 </h4>
 
 <p align="left" style="display: flex; flex-direction: row; justify-content: center; align-items: center">
-📄 <a href="https://" target="_blank" style="margin-right: 15px; margin-left: 10px">Paper</a> • 
+📄 <a href="https://arxiv.org/abs/2310.09550" target="_blank" style="margin-right: 15px; margin-left: 10px">Paper</a> • 
 🏆 <a href="#Leaderboard" target="_blank"  style="margin-left: 10px">Leaderboard</a> •
 🤗 <a href="https://huggingface.co/datasets/tyouisen/aclue" target="_blank" style="margin-left: 10px">Datasets</a> 
 </p>
