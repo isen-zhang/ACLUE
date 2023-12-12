@@ -89,6 +89,7 @@ ACLUE的任务取自人工挑选的公开资源和自动生成的古代汉语语
 ## 引用
 
 ```
+Zhang, Yixuan, and Haonan Li. "Can Large Langauge Model Comprehend Ancient Chinese? A Preliminary Test on ACLUE." Proceedings of the Ancient Language Processing Workshop. 2023.
 ```
 ## 许可证
 
